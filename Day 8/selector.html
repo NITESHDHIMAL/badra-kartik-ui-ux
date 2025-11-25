@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* *{
+            margin: 0;
+            padding: 0; 
+         } */
+        /* element selector  */
+        h1{
+            color: green;
+        }
+        /* .course{
+            color: brown;
+        } */
+
+        ul li{
+            color: blue;
+        }
+
+        .syllabus li{
+            color: aqua;
+        }
+
+        #mern{
+            color: aquamarine;
+        }
+
+        /* attribute selector  */
+        img[alt="photo1"]{
+            width: 200px;
+        }
+
+        h1,button{
+            color: yellow;
+        }
+
+        /* pseudo selector  */
+        p:hover{
+            color: blueviolet;
+            /* cursor: pointer; */
+            /* cursor: progress; */
+            cursor: grab;
+        }
+ 
+
+    </style>
+</head>
+
+<body>
+ 
+
+    <h1>this is heading</h1>
+
+    <ul>
+        <li class="course">
+            Python
+            <ul class="syllabus">
+                <li>
+                    introduction
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo earum vero placeat deleniti. Aperiam sint dolores iste odit, architecto temporibus veniam autem nobis maxime! Accusamus temporibus repudiandae illo ipsam quod.</p>
+                </li>
+                <li>variable</li>
+                <li>data type</li>
+            </ul>
+        </li>
+        <li class="course">Django</li>
+        <li id="mern">MERN</li>
+        <li>Web Design</li>
+    </ul>
+
+    <button>click me to change the course color</button>
+
+
+    <img src="https://www.mindrisers.com.np/assets/images/home/internship-job.webp" alt="photo1">
+    <img src="https://www.mindrisers.com.np/static/Images/courses/Web-Design.png" alt="photo2">
+
+</body>
+
+</html>

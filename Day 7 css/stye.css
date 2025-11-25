@@ -1,0 +1,23 @@
+/* external css  */
+h1 {
+    /* color: brown; */
+    background-color: aquamarine;
+    /* padding: 20px; */
+    /* padding: 20px 30px; */
+    /* padding: top right bottom left; */
+    /* padding: top right bottom left; */
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+    margin: 30px;
+    /* border: border-width style color; */
+    border: 2px solid;
+
+    /* font-family:'Times New Roman', Times, serif ; */
+    font-family: "Cedarville Cursive", cursive;  
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
