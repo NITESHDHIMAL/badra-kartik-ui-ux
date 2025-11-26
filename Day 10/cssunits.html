@@ -1,39 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .box{
-            height: 250px;
-            width: 250px;
+        * {
+            margin: 0;
+        }
+
+        .box {
+            /* height: 250px;
+            width: 250px; */
             background-color: green;
 
             /* overflow:auto; */
             /* overflow:hidden; */
-            overflow:scroll;
+            /* overflow:scroll; */
+            /* overflow-x: auto; */
+            /* overflow-x: hidden; */
+            /* overflow-y: hidden; */
+            /* overflow-y: scroll; */
+            /* text-wrap: nowrap; */
 
-            text-wrap: nowrap;
+            /* font-size: 20px; */
+            font-size: 3rem;
+        }
 
+        p {
+            /* font-size: 3em; */
+            background-color: brown;
+            width: 50%;
+        }
+
+        #ram {
+            background-color: blue;
+            /* width: 0%; */
+        }
+
+        .minibox {
+            background-color: green;
+            height: 100vh;
+            /* height: 400px; */
+            width: 20vw;
+            overflow: auto;
         }
     </style>
 </head>
+
 <body>
 
     <!-- css units: 
-    1.px
-    2.rem
-    3.em
-    4.%
-    5.vh
-    6.vw -->
+    1.px(fixed)
+    2.rem(root element(html)'s font size ' )
+    3.em(relative to the parent font size)
+    4.%(relative to the parent)
+    5.vh(viewport)
+    6.vw --> 
 
+    <!-- <div class="box">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt porro totam quibusdam officia enim illo aut, blanditiis dolorum amet unde explicabo doloremque ratione delectus, animi eaque at officiis harum voluptas.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt porro totam quibusdam officia enim illo aut, blanditiis dolorum amet unde explicabo doloremque ratione delectus, animi eaque at officiis harum voluptas.
+        <p>My name is Ram </p>
+        <div id="ram"> 
+            my name is hari 
+        </div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt porro totam quibusdam officia enim illo aut, blanditiis dolorum amet unde explicabo doloremque ratione delectus, animi eaque at officiis harum voluptas.
+    </div> -->
 
-    <div class="box">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt porro totam quibusdam officia enim illo aut, blanditiis dolorum amet unde explicabo doloremque ratione delectus, animi eaque at officiis harum voluptas.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt porro totam quibusdam officia enim illo aut, blanditiis dolorum amet unde explicabo doloremque ratione delectus, animi eaque at officiis harum voluptas.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt porro totam quibusdam officia enim illo aut, blanditiis dolorum amet unde explicabo doloremque ratione delectus, animi eaque at officiis harum voluptas.
+    <div class="minibox">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fuga obcaecati nisi. Vel voluptates ducimus
+        praesentium eum? Reprehenderit, harum beatae molestiae commodi in, ipsa provident animi nihil libero asperiores
+        assumenda.
     </div>
 
 
@@ -41,6 +158,7 @@
 
 
 
-    
+
 </body>
+
 </html>
