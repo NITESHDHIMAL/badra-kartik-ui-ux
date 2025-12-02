@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 150px;
+            width: 150px;
+            background-color: green; 
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name:moveBox;
+            animation-duration: 2s;
+            /* animation-iteration-count: 5; */
+            animation-iteration-count: infinite;
+           animation-timing-function: linear; 
+
+           position: relative;
+        }
+        
+        @keyframes moveBox {
+            0%{
+                top: 0;
+                background-color: aquamarine;
+            }
+            100%{
+                top: 300px;
+                background-color: red;
+            }
+        } 
+
+        /* @keyframes moveBox {
+            from{
+                margin-top: 0;
+                background-color: aquamarine;
+            }
+            to{
+                margin-top: 300px;
+                background-color: red;
+            }
+        }  */
+
+       
+         
+    </style>
+</head>
+<body> 
+    <div class="box"></div> 
+</body>
+</html>
